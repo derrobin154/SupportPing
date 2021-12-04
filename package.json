@@ -1,0 +1,16 @@
+{
+  "name": "supportpingbot",
+  "version": "1.0.0",
+  "description": "Ein Bot welche eine Rolle anpingt wenn jemand einen gewissen Channel betritt. (Discord.js)",
+  "main": "index.js",
+  "author": "derrobin154",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "download": "npm -i"
+  }
+}
