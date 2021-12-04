@@ -21,7 +21,6 @@ try {
             if(afterUpdate.channelId === config["discord-supportchannelid"]){
                 if(afterUpdate.member.roles.cache.has(config["discord-supportrole"])) return;
                 if(afterUpdate.member.roles.cache.has(config["discord-supportmuterole"])) return;
-		if(afterUpdate.member.roles.cache.has(config["discord-supportrole2"])) return;
                 const Embed = new MessageEmbed()
                     .setColor("#FF0000")
                     .setTitle(`${afterUpdate.member.displayName} wartet im Support Channel`)
